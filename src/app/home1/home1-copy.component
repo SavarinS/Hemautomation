@@ -1,0 +1,37 @@
+.home1 {
+  display: flex;
+  padding: 5em;
+
+  .left-side {
+      text-align: center;
+    .home-title {
+      display: flex;
+      flex-direction: row;
+      padding: 2em;
+      text-align: center;
+      justify-content: center;
+      align-items: baseline;
+    }
+  }
+
+  .home-image {
+    width: 100%;
+
+    img {
+      width: 20vw;
+    }
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    width: 40vw;
+    justify-content: center;
+    padding: 2em 3em;
+
+    h5 {
+      color: #446CB3;
+    }
+  }
+}

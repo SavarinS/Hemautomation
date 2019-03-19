@@ -6,9 +6,12 @@ import { AppComponent } from './app.component';
 import { ApiService } from './api.service';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { HomesComponent } from './homes/homes.component';
 import { RouterModule } from '@angular/router';
 import { Home2Component } from './home2/home2.component';
+import { Home1Component } from './home1/home1.component';
+import { Home3Component } from './home3/home3.component';
+import { Home4Component } from './home4/home4.component';
+import { NavComponent } from './nav/nav.component';
 
 
 
@@ -16,8 +19,11 @@ import { Home2Component } from './home2/home2.component';
   declarations: [
     AppComponent,
     SidebarComponent,
-    HomesComponent,
-    Home2Component
+    Home2Component,
+    Home1Component,
+    Home3Component,
+    Home4Component,
+    NavComponent
   ],
   imports: [
     BrowserModule,
@@ -27,11 +33,20 @@ import { Home2Component } from './home2/home2.component';
     RouterModule.forRoot([
       { 
         path: 'home1', 
-        component: HomesComponent 
+        component: Home1Component 
       },
       { 
         path: 'home2', 
-        component: Home2Component }
+        component: Home2Component 
+      },
+      { 
+        path: 'home3', 
+        component: Home3Component 
+      },
+      { 
+        path: 'home4', 
+        component: Home4Component 
+      }
     ])
   ],
   providers: [

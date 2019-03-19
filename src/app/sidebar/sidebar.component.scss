@@ -1,33 +1,30 @@
 .homes-list {
     background-color: #f3f1ef;
-    width: 20vw;
-    height: 100vh;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
+    flex-direction: row;
     
-    ul{
-        list-style-type: none;
-        padding: 0;
-        
-
-        li {
-            font-size: 1.5em;
-            color: #000000;
-            padding: 1em;
-            margin:3em;
-            cursor: pointer;
             //border-bottom: 2px solid #f3f1ef;
-          
-            
-        }
-        li:hover {
-            color: #446CB3;
-            
-    }
-    
-    }
+            a {
+                text-decoration: none;
+                color: #446CB3;
+                
+            }
 
-    
+            a:hover {
+                color: #bfbfbf;
+            }
 }
 
+@media only screen and (min-width: 900px){
+    .homes-list {
+
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 20vw;
+        height: 100vh;
+    }
+
+}

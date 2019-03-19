@@ -1,0 +1,71 @@
+<div class="home1">
+  <div class="left-side">
+      <h5>{{title}}</h5>
+    <div class="home-title">
+      <h5> {{object.address.street}}, {{object.address.city}}, {{object.address.zipcode}}</h5>
+    </div> <!-- home-titlle -->
+    <div class="home-image">
+      <img src="assets/img/alberto-castillo.jpg">
+    </div>
+  </div> <!-- left-side -->
+
+  <div class="info">
+    <p>Antal: {{object.people}} personer</p>
+    <div class="accordion" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+              aria-controls="collapseOne">
+              <h5>{{object.rooms.room1.name}}</h5>
+            </button>
+          </h2>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body room1">
+            <p>Procudt: {{object.rooms.room1.product}}</p>
+            <p>Temperatur: {{object.rooms.room1.temperature}}</p>
+            <p>Humidity: {{object.rooms.room1.humidity}}</p>
+            <p>Storlek: {{object.rooms.room1.size}}</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+              aria-expanded="false" aria-controls="collapseTwo">
+              <h5>{{object.rooms.room2.name}}</h5>
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body room2">
+            <p>Procudt: {{object.rooms.room2.product}}</p>
+            <p>Temperatur: {{object.rooms.room2.temperature}}</p>
+            <p>Humidity: {{object.rooms.room2.humidity}}</p>
+            <p>Storlek: {{object.rooms.room2.size}}</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+              aria-expanded="false" aria-controls="collapseThree">
+              <h5>{{object.rooms.room3.name}}</h5>
+            </button>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body room3">
+            <p>Procudt: {{object.rooms.room3.product}}</p>
+            <p>Temperatur: {{object.rooms.room3.temperature}}</p>
+            <p>Humidity: {{object.rooms.room3.humidity}}</p>
+            <p>Storlek: {{object.rooms.room3.size}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- End .hom31  -->

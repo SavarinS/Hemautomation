@@ -1,0 +1,30 @@
+.homes-list {
+    background-color: #f3f1ef;
+    width: 20vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+            //border-bottom: 2px solid #f3f1ef;
+            a {
+                text-decoration: none;
+                color: #446CB3;
+                font-size: 1.5em;
+                padding: 1em;
+                margin:1em;
+                
+            }
+
+            a:hover {
+                color: #bfbfbf;
+            }
+          
+            
+     
+    
+    
+    
+}
+

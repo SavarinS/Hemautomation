@@ -1,0 +1,149 @@
+{
+    "homes": [{
+        "id": 1,
+        "people": 3,
+        "address": {
+                "street": "Rosenvägen 11",
+                "city": "Eslöv",
+                "zipcode": "241 37"
+            },
+        "rooms": {
+                "room1": {
+                    "id": 2,
+                    "name": "Kök",
+                    "product": "Smart Color Button",
+                    "temperature": "24",
+                    "humidity": "45",
+                    "size": "3x3"
+                },
+                "room2": {
+                      "id": 9,
+                      "name": "Badrum",
+                      "product": "Philips Hue Lampor",
+                      "temperature": "25",
+                      "humidity": "48",
+                      "size": "5x5"
+                    },
+                "room3": {
+                      "id": 12,
+                      "name": "Vardagsrum",
+                      "product": "Smart Color Button",
+                      "temperature": "28",
+                      "humidity": "40",
+                      "size": "6x8"
+                        }
+        }
+    },
+        {
+            "id": 2,
+            "people": 2,
+            "address": {
+                "street": "Storagatan 2",
+                "city": "Lund",
+                "zipcode": "905 66"
+                   
+            },
+            "rooms": {
+                "room1": {
+                    "id": 12,
+                    "name": "Kök",
+                    "product": "Philips Hue Lampor",
+                    "temperature": "25",
+                    "humidity": "46",
+                    "size": "3x2"
+                },
+                "room2": {
+                      "id": 19,
+                      "name": "Badrum",
+                      "product": "Electrical Heating Thermosat",
+                      "temperature": "28",
+                      "humidity": "48",
+                      "size": "5x3"
+                    },
+                "room3": {
+                      "id": 22,
+                      "name": "Vardagsrum",
+                      "product": "Smart Color Button",
+                      "temperature": "25",
+                      "humidity": "46",
+                      "size": "6x6"
+                        }
+                
+            }
+        },
+        {
+            "id": 3,
+            "people": 4,
+            "address": {
+                "street": "Tåbelundsvägen 5",
+                "city": "Marieholm",
+                "zipcode": "1200 56"
+                   
+            },
+            "rooms": {
+                "room1": {
+                    "id": 3,
+                    "name": "Vardagsrum",
+                    "product": "Soft Remote",
+                    "temperature": "26",
+                    "humidity": "46",
+                    "size": "4x2"
+                },
+                "room2": {
+                      "id": 11,
+                      "name": "Matsal",
+                      "product": "Soft Remote",
+                      "temperature": "26",
+                      "humidity": "47",
+                      "size": "4x4"
+                    },
+                "room3": {
+                      "id": 14,
+                      "name": "Badrum",
+                      "product": "Philips Hue Lampor",
+                      "temperature": "25",
+                      "humidity": "46",
+                      "size": "4x3"
+                        }
+                
+            }
+        },
+        {
+            "id": 4,
+            "people": 4,
+            "address": {
+                "street": "Lillafiskgatan 11",
+                "city": "Ängelholm",
+                "zipcode": "678 90"
+                   
+            },
+            "rooms": {
+                "room1": {
+                    "id": 15,
+                      "name": "Vardagsrum",
+                      "product": "Smart Color Button",
+                      "temperature": "25",
+                      "humidity": "46",
+                      "size": "6x6"
+                },
+                "room2": {
+                    "id": 16,
+                    "name": "Sovrum",
+                    "product": "Philips Hue Lampor",
+                    "temperature": "25",
+                    "humidity": "46",
+                    "size": "4x3"
+                    },
+                    "room3": {
+                        "id": 12,
+                        "name": "Vardagsrum",
+                        "product": "Smart Color Button",
+                        "temperature": "28",
+                        "humidity": "40",
+                        "size": "6x8"
+                          }
+                
+            }
+        }
+    ]
+}
