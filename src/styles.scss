@@ -9,3 +9,76 @@ p {
     font-family: 'Open Sans', sans-serif;
 }
 
+// Global style for content
+.homes {
+    display: flex;
+    flex-direction: column;
+    margin-top:1em;
+  
+    .left-side {
+        text-align: center;
+        padding:1.2em;
+      .home-title {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  
+    .home-image {
+      width: 100%;
+  
+      img {
+        width: 100%;
+      }
+    }
+  
+    .info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+  
+      h5 {
+        color: #446CB3;
+      }
+  
+      .accordion{
+          width: 90vw;
+      }
+    }
+  }
+  
+  @media only screen and (min-width: 900px){
+  
+      .homes{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: baseline;
+
+          .left-side {
+              margin-top: 2em;
+
+              .home-image {
+                width: 30vw;
+                margin-top: 2em;
+            
+              }
+          }
+  
+          
+          .info { 
+              padding:2em;
+
+              .accordion{
+                  width: 40vw;
+                  margin-top:3em;
+              }
+            }
+      }
+      
+  }
