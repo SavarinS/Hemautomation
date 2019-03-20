@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Address } from 'cluster';
 
 @Component({
   selector: 'app-home1',
@@ -11,6 +12,8 @@ export class Home1Component implements OnInit {
 
   private apiUrl = 'http://localhost:3000/homes/1';
   object: Object;
+  
+  
 
   constructor(private http: HttpClient) { 
     console.log('Hello from contructor home1');

@@ -2,9 +2,10 @@
     background-color: #446CB3;
     padding: 1em;
     color: #f3f1ef;
+    align-items: baseline;
     justify-content: center;
     h3, ul {
-        padding: 0 3em;
+        padding: 0.5em 1em;
     }
 
     .nav-item {
@@ -18,7 +19,21 @@
     border-color: #f3f1ef;
 }
 
+.nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 @media only screen and (min-width: 900px){
-    
+    #navbarSupportedContent {
+        justify-content: flex-end;
+    }
+
+    .nav {
+        
+        flex-direction: row;
+        
+    }
 
 }
