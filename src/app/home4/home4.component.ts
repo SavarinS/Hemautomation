@@ -10,7 +10,7 @@ import { HttpClient } from '@angular/common/http';
 export class Home4Component implements OnInit {
   title = 'Hus 4';
 
-  private apiUrl = 'http://localhost:3000/homes/3';
+  private apiUrl = 'http://localhost:3000/homes/4';
   object: Object;
   constructor(private http: HttpClient) { 
     console.log('Hello from contructor home4');
