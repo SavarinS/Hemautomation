@@ -46,6 +46,10 @@ import { NavComponent } from './nav/nav.component';
       { 
         path: 'home4', 
         component: Home4Component 
+      },
+      { 
+        path: '', 
+        component: Home1Component 
       }
     ])
   ],
